@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script type="text/javascript" src="js/jquery.serializejson.js"></script>
+        <title>Mi primer blog</title>
+        
+    </head>
+    <body>
+        <div>
+            <form id="myform" action="" method="post">
+                <input type="text" name="nombre" required="true" placeholder="Su nombre"><br>
+                <input type="tel" name="telefono" required="true" placeholder="Su teléfono"><br>
+                <input type="email" name="correo" required="true" placeholder="Su correo"><br>
+                <input type="password" name="contrasenia" required="true" placeholder="Contraseña"><br>
+                <input type="checkbox" id="cheq" value="Acepto que me roben todo">Aceptar términos<br>
+                <button id="boton" onclick="serializar()" >Click</button>
+            </form>
+
+            <script>
+                function serializar()
+                {
+                    
+                        var text = "";
+                        
+                        
+
+                        if($('#cheq').is(':checked')) {
+
+                            text = $('#myform').serializeJSON();
+                            if (text.nombre == "" || text.telefono == "" || text.correo == "" || text.contrasenia == "" ) 
+                            {
+                                alert("Por favor, llene los campos obligatorios");
+                        
+                            }
+                            else
+                            {
+                                console.log(text);
+                                alert(text.nombre+"\n"+text.telefono+"\n"+text.correo+"\n"+text.contrasenia+"\n");   
+                                
+                            }
+
+                        } else {
+                            alert("Por favor, acepte los términos");
+                        }
+
+                        
+                   
+                }
+            </script>
+        </div>
+    </body>
+</html>
+
