@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:#3A3F49
+}
+body >p, h3{
+    color:white;
+}
+.fa-bug{
+    color:white;
+    padding: 7px;
+}
+
+.fa-heartbeat{
+    color:white;
+    padding: 7px;
+}
+.all, .row{
+    border: 1px solid red;
+    margin-bottom: 10px;
+}

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="stylesheet" href="font/css/font-awesome.min.css">
+    <title>the CHIVE</title>
+  </head>
+  <body>
+    
+
+
+    <div class="container-fluid basecolor">
+
+      <nav class="navbar navbar-dark">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+        <i class="fa fa-refresh fa-2x" aria-hidden="true"></i>
+      </nav>
+      
+      
+        <div class="row filas">
+          <div class="col-3"><img src="img/marvel.png" class="rounded img-fluid"></div>
+          <div class="col-6">
+            Marvel Section </br>
+            56 <i class="fa fa-picture-o fa-lg" aria-hidden="true"></i></br>
+            385 <i class="fa fa-comment-o fa-lg" aria-hidden="true"></i>
+          </div>
+          <div class="col-3">
+            </br>
+            181 <i class="fa fa-thumbs-up fa-lg" aria-hidden="true"></i></br>
+            15 <i class="fa fa-thumbs-down fa-lg" aria-hidden="true"></i>
+          </div>
+        </div>
+
+        <div class="row filas">
+          <div class="col-3"><img src="img/dc.jpeg" class="rounded img-fluid"></div>
+          <div class="col-6">
+            DC Section </br>
+            46 <i class="fa fa-picture-o fa-lg" aria-hidden="true"></i></br>
+            585 <i class="fa fa-comment-o fa-lg" aria-hidden="true"></i>
+          </div>
+          <div class="col-3">
+            </br>
+            157 <i class="fa fa-thumbs-up fa-lg" aria-hidden="true"></i></br>
+            35 <i class="fa fa-thumbs-down fa-lg" aria-hidden="true"></i>
+          </div>
+        </div>
+
+        <div class="row filas">
+          <div class="col-3"><img src="img/microsoft.png" class="rounded img-fluid"></div>
+          <div class="col-6">
+            Microsoft Section </br>
+            246 <i class="fa fa-picture-o fa-lg" aria-hidden="true"></i></br>
+            3585 <i class="fa fa-comment-o fa-lg" aria-hidden="true"></i>
+          </div>
+          <div class="col-3">
+            </br>
+            1157 <i class="fa fa-thumbs-up fa-lg" aria-hidden="true"></i></br>
+            135 <i class="fa fa-thumbs-down fa-lg" aria-hidden="true"></i>
+          </div>
+        </div>
+
+        <div class="row filas">
+          <div class="col-3"><img src="img/apple.jpg" class="rounded img-fluid"></div>
+          <div class="col-6">
+            Apple Section </br>
+            138 <i class="fa fa-picture-o fa-lg" aria-hidden="true"></i></br>
+            2585 <i class="fa fa-comment-o fa-lg" aria-hidden="true"></i>
+          </div>
+          <div class="col-3">
+            </br>
+            1075 <i class="fa fa-thumbs-up fa-lg" aria-hidden="true"></i></br>
+            235 <i class="fa fa-thumbs-down fa-lg" aria-hidden="true"></i>
+          </div>
+        </div>
+      
+    </div>
+
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+  </body>
+</html>
