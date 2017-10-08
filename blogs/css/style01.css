@@ -1,0 +1,45 @@
+#cabecera{
+    display: inline-block;
+    width: 40%;
+    margin: 1% 20% 0 5%;
+}
+.blog {
+    width: 160px; height: 160px;
+}
+#cabecera p{
+    text-align: left;
+    font-size: bold;
+}
+
+.navigation{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 200px;
+}
+
+.navigation02{
+    position: absolute;
+    top: 0;
+    left: 200;
+    width: 200px;
+}
+
+.floating-box {
+    float: right;
+    width: 30%;
+    height: 250px;
+    margin: 1%;
+    
+}
+
+.ul-li-box{
+    float: left;
+    width: 15%;
+    height: 250px;
+    margin: 5%;
+}
+
+.after-box {
+    clear: left;
+}
